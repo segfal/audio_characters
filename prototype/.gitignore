@@ -1,1 +1,3 @@
 poetry.lock
+user_input_script/*
+__pycache__
