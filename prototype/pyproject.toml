@@ -1,0 +1,23 @@
+[project]
+name = "audio-characters"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+package-mode = false
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "tortoise-tts (>=3.0.0,<4.0.0)",
+    "requests (>=2.32.4,<3.0.0)",
+    "numba (>=0.61.2,<0.62.0)",
+    "inflect (>=7.5.0,<8.0.0)",
+    "psutil (>=7.0.0,<8.0.0)",
+    "transformers (==4.31.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
